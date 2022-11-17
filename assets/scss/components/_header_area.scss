@@ -1,0 +1,80 @@
+.header-area {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #03c75a;
+  color: #fff;
+  z-index: 5000;
+  word-break: keep-all;
+  // overflow: auto;
+}
+.place-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: $place-header-height;
+
+  .title {
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .link-back {
+    display: flex;
+  }
+
+  .my-orders {
+    font-size: 15px;
+    font-weight: 700;
+    padding-right: $m-padding;
+  }
+
+}
+.place-tab {
+  display: flex;
+  height: $place-tab-height;
+  background-color: #03b753;
+  // @include overflow-x-scroll;
+
+  .tab-inner {
+    display: flex;
+    // flex-grow: 1;
+    // width: 100%;
+    flex-basis: 0;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 8px;
+  
+    .tab {      
+      flex: 1;
+      padding: 0 12px;
+      font-size: 16px;
+      text-align: center;
+      opacity: 0.7;
+      &.is-active {
+        font-weight: 700;
+        opacity: 1;
+        .txt::after {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          right:0;
+          height: 3px;
+          background-color: #fff;
+          border-radius: 3px;
+        }
+      }
+
+      .txt {
+        padding: 0 4px;
+        position: relative;
+        display: inline-block;
+        line-height: $place-tab-height;
+      }
+    }
+  }
+}

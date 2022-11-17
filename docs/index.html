@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>제로베이스 마크업</title>
+  <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <!-- 고정 헤더 영역 -->
+    <header class="header-area">
+      <div class="place-header">
+        <h1 class="title">
+          <a href="#" class="link-back">
+            <img src="../assets/images/ico-back.svg" alt="뒤로가기">
+          </a>
+          샐러드 제로베이스점
+        </h1>
+        <a href="#" class="my-orders">주문내역</a>
+      </div>
+      <div class="place-tab scroll-x">
+        <div class="tab-inner">
+          <a href="#" class="tab"> <span class="txt">홈</span> </a>
+          <a href="#" class="tab is-active"> <span class="txt">메뉴</span> </a>
+          <a href="#" class="tab"> <span class="txt">리뷰</span> </a>
+          <a href="#" class="tab"> <span class="txt">사진</span> </a>
+          <a href="#" class="tab"> <span class="txt">지도</span> </a>
+          <a href="#" class="tab"> <span class="txt">주변</span> </a>
+        </div>
+      </div>
+    </header>
+    <!-- // 고정 헤더 영역 -->
+
+    <!-- 주문 정보 영역 -->
+    <div class="order-info-area">
+      <div class="common-inner">
+        <div class="info-main">
+          <div class="info-main-title">
+            <div class="title">
+              <svg viewBox="0 0 18 18" class="ico-n-logo">
+                <path fill-rule="evenodd" fill="currentColor" d="M18 0v18H0V0h18zM7.255 4.582H4.473v9.054h2.915V8.79l3.357 4.846h2.782V4.582h-2.915v4.846L7.255 4.582z">
+                </path>
+              </svg>
+              주문
+            </div>
+          </div>
+          
+          <!-- 주문 분류 -->
+          <div class="tab-switch-box" role="tablist">
+            <a href="#" class="tab-switch is-active" role="tab">🛍&nbsp;&nbsp;포장 <img src="../assets/images/ico-check.svg" alt="" class="ico-check" aria-hidden="true"></a>
+            <a href="#" class="tab-switch" role="tab">🛒&nbsp;&nbsp;매장 <img src="../assets/images/ico-check.svg" alt="" class="ico-check" aria-hidden="true"></a>
+            <a href="#" class="tab-switch" role="tab">🚛&nbsp;&nbsp;배달 <img src="../assets/images/ico-check.svg" alt="" class="ico-check" aria-hidden="true"></a>
+          </div>
+
+          <div class="info-main-notice">
+            가지고 가실 수 있게 포장해 드립니다.
+          </div>
+          <div class="info-main-notice alert hidden">
+            <svg aria-hidden="true" class="ico-clock" viewBox="0 0 13 13" width="13" height="13" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill="currentColor" d="M6.5 0a6.5 6.5 0 110 13 6.5 6.5 0 010-13zm0 1a5.5 5.5 0 100 11 5.5 5.5 0 000-11zm.492 1.137v4.157l2.792 2.674-.692.722-3.1-2.97V2.137h1z"></path>
+            </svg>
+            &nbsp;&nbsp;지금은 주문할 수 없습니다.
+          </div>
+
+          <!-- 최근 주문 내역 -->
+          <div class="recent-order-area">
+            <div class="recent-title">
+              <img src="../assets/images/ico-clock.svg" alt="" class="ico-clock">
+              최근<br>주문
+            </div>
+            <div class="recent-menu-area scroll-x">
+              <ul class="recent-menu-list">
+
+                <li class="recent-menu-item is-ordered">
+                  <a href="./detail.html">
+                    <div class="menu-img-area">
+                      <img src="https://via.placeholder.com/80" alt="메뉴사진" class="menu-img">
+                    </div>
+                    <p class="menu-name">찰리베이컨 웜볼</p>
+                    <p class="menu-price">6,100원</p>
+                  </a>
+                  <a href="#" class="badge-cart">
+                    <img src="../assets/images/ico-cart.svg" alt="주문하기" class="ico-cart">
+                  </a>
+                </li>
+                
+                <li class="recent-menu-item">
+                  <a href="./detail.html">
+                    <div class="menu-img-area">
+                      <span class="badge-popular">인기</span>
+                      <img src="https://via.placeholder.com/80" alt="메뉴사진" class="menu-img">
+                    </div>
+                    <p class="menu-name">찰리베이컨 웜볼</p>
+                    <p class="menu-price">6,100원</p>
+                  </a>
+                  <a href="#" class="badge-cart">
+                    <img src="../assets/images/ico-cart.svg" alt="주문하기" class="ico-cart">
+                  </a>
+                </li>
+
+                <li class="recent-menu-item">
+                  <a href="./detail.html">
+                    <div class="menu-img-area">
+                      <span class="badge-popular">인기</span>
+                      <img src="https://via.placeholder.com/80" alt="메뉴사진" class="menu-img">
+                    </div>
+                    <p class="menu-name">찰리베이컨 웜볼</p>
+                    <p class="menu-price">6,100원</p>
+                  </a>
+                  <a href="#" class="badge-cart">
+                    <img src="../assets/images/ico-cart.svg" alt="주문하기" class="ico-cart">
+                  </a>
+                </li>
+
+                <li class="recent-menu-item">
+                  <a href="./detail.html">
+                    <div class="menu-img-area">
+                      <span class="badge-popular">인기</span>
+                      <img src="https://via.placeholder.com/80" alt="메뉴사진" class="menu-img">
+                    </div>
+                    <p class="menu-name">찰리베이컨 웜볼</p>
+                    <p class="menu-price">6,100원</p>
+                  </a>
+                  <a href="#" class="badge-cart">
+                    <img src="../assets/images/ico-cart.svg" alt="주문하기" class="ico-cart">
+                  </a>
+                </li>
+
+              </ul>
+            </div>
+          </div> 
+
+        </div>
+      </div>
+    </div>
+    <!-- // 주문 정보 영역 -->
+
+    <!-- 메뉴 카테고리 영역 -->
+    <div class="menu-category-area scroll-x">
+      <div class="common-inner">
+        <ul class="category-list scroll-x">
+          <li class="category-item"> <a href="#" class="category-tab is-active">추천</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">시즈널 메뉴</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">시그니처 샐러드</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">웜블</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">샌드</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">랩</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">나만의 샐러드</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">스프</a> </li>
+          <li class="category-item"> <a href="#" class="category-tab">음료</a> </li>
+  
+        </ul>
+      </div>
+    </div>
+    <!-- // 메뉴 카테고리 영역 -->
+
+    <!-- 메뉴 리스트 영역 -->
+    <div class="menu-list-area new">
+      <div class="common-inner">
+        <div class="menu-category">
+          <p class="title">새로 나온 메뉴</p>
+        </div>
+
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <img src="../assets/images/ico-new.svg" alt="new" class="ico-new">
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart-fill-green.svg" alt="주문하기">
+              <span class="num">1</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <img src="../assets/images/ico-new.svg" alt="new" class="ico-new">
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart.svg" alt="주문하기">
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <img src="../assets/images/ico-new.svg" alt="new" class="ico-new">
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart disabled">
+              품절
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="menu-list-area popular">
+      <div class="common-inner">
+        <div class="menu-category">
+          <div class="title-area">
+            <p class="title">인기 메뉴</p>
+            <div class="period">
+              <img src="../assets/images/ico-period.svg" alt="">
+              3개월 주문 기준
+            </div>
+          </div>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <img src="../assets/images/ico-new.svg" alt="new" class="ico-new">
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart-fill-green.svg" alt="주문하기">
+              <span class="num">1</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <span class="badge-popular">인기</span>
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart.svg" alt="주문하기">
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <span class="badge-popular">인기</span>
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart disabled">
+              품절
+            </a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+
+    <div class="menu-list-area is-closed">
+      <div class="common-inner">
+        <div class="menu-category">
+          <p class="title">시즈널 메뉴</p>
+          <button class="btn-toggle"> <img class="ico-arrow" src="../assets/images/ico-arrow.svg" alt=""> </button>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <img src="../assets/images/ico-new.svg" alt="new" class="ico-new">
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart-fill-green.svg" alt="주문하기">
+              <span class="num">1</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <span class="badge-popular">인기</span>
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart.svg" alt="주문하기">
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <span class="badge-popular">인기</span>
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart disabled">
+              품절
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="menu-list-area is-closed">
+      <div class="common-inner">
+        <div class="menu-category">
+          <p class="title">시그니처 샐러드</p>
+          <button class="btn-toggle"> <img class="ico-arrow" src="../assets/images/ico-arrow.svg" alt=""> </button>
+        </div>
+        <ul class="menu-list">
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <img src="../assets/images/ico-new.svg" alt="new" class="ico-new">
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart-fill-green.svg" alt="주문하기">
+              <span class="num">1</span>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <span class="badge-popular">인기</span>
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart">
+              <img class="ico-cart" src="../assets/images/ico-cart.svg" alt="주문하기">
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="./detail.html" class="menu-detail">
+              <div class="menu-img-area">
+                <img src="https://via.placeholder.com/100x100/ffffff/0000000" 
+                alt="메뉴명" class="menu-img" width="100" height="100">
+              </div>
+              <div class="menu-info-area">
+                <p class="menu-name-group">
+                  <span class="menu-name">메뉴이름</span>
+                  <span class="badge-popular">인기</span>
+                </p>
+                <div class="menu-info-group">
+                  <span class="menu-grade">
+                    <img class="ico-star" src="../assets/images/ico-star.svg" alt="">5.00
+                  </span>
+                  <span class="menu-number-of-order">주문수<em>999</em></span>
+                </div>
+                <p class="menu-desc">메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다. 메뉴에 대한 간단한 설명이 적혀있습니다.</p>
+                <p class="menu-price">9,999원</p>
+              </div>
+            </a>
+            <a href="#" class="btn-cart disabled">
+              품절
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- //메뉴 리스트 영열 -->
+
+    <!-- 담은 메뉴 영역 -->
+    <div class="order-box-area">
+      <div class="common-inner">
+        <div>
+          <p class="menu-name">메뉴이름</p>
+          <p class="menu-price">9,999원</p>
+        </div>
+        <a href="./order.html" class="btn-order">
+          <span class="txt">주문하기</span>
+          <span class="icon">
+            <img src="../assets/images/ico-cart-fill.svg" alt="" aria-hidden="true" class="ico-cart">
+            <span class="num">1</span>
+          </span>
+        </a>
+      </div>
+    </div>
+    
+    <!-- // 담은 메뉴 영역 -->
+    
+    <!-- 맨 위로 -->
+
+    <div class="go-to-top">
+      <a href="#" class="link">Top <i class="ico-up"></i></a>
+    </div>
+
+    <!-- // 맨 위로 -->
+  </div>
+
+
+
+  <div class="dimmed-layer hidden"></div>
+  <div class="order-type-popup hidden">
+    <p class="title">어디서 드시나요?</p>
+    <div class="type-list">
+      <a href="#" class="type-item">
+        <img src="../assets/images/take-away.png" alt="포장" class="icon">
+        <p class="desc">포장해서 가져갈게요</p>
+        <span class="btn-selection">선택</span>
+      </a>
+
+      <a href="#" class="type-item">
+        <img src="../assets/images/eating.png" alt="매장" class="icon">
+        <p class="desc">매장에서 먹고 갈게요</p>
+        <span class="btn-selection">선택</span>
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
